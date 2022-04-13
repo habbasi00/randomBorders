@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+#right {
+background-color: chartreuse;
+display: flex;
+justify-content: right;
+}
+
+#left {
+background-color: cyan;
+display: flex;
+justify-content: left;
+}
+
+#center {
+background-color: crimson;
+display: flex;
+justify-content: center;
+}
+
+#container {
+    display: flex;
+    border: 2px darkolivegreen solid;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.items {
+    border: springgreen solid 4px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#container2 {
+    display: flex;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="right">oh</div>
+
+<div id="left">hm</div>
+
+<div id="center">k</div>
+
+<div id="container">
+
+<div class="items" style="order: 1;">1 <a href="https://www.youtube.com/" target="_blank"><img src="https://www.artmajeur.com/medias/standard/s/u/sunbelle/artwork/11302988_img-20180714-160115.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 2;">2 <a href="https://mail.google.com/" target="_blank"><img src="https://www.artmajeur.com/medias/standard/s/u/sunbelle/artwork/11302988_img-20180714-160115.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 4;">3 <a href="https://www.google.com/" target="_blank"><img src="https://i.ytimg.com/vi/yLdJ1fzl3nA/maxresdefault.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 5;">4 <a href="https://mail.google.com/" target="_blank"><img src="https://www.artmajeur.com/medias/standard/s/u/sunbelle/artwork/11302988_img-20180714-160115.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 6;">5 <a href="https://www.google.com/" target="_blank"><img src="https://www.artmajeur.com/medias/standard/s/u/sunbelle/artwork/11302988_img-20180714-160115.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 7;">6 <a href="https://mail.google.com/" target="_blank"><img src="https://www.artmajeur.com/medias/standard/s/u/sunbelle/artwork/11302988_img-20180714-160115.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 8;">7 <a href="https://www.google.com/" target="_blank"><img src="https://i.ytimg.com/vi/yLdJ1fzl3nA/maxresdefault.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 9;">8 <a href="https://www.youtube.com/" target="_blank"><img src="https://www.artmajeur.com/medias/standard/s/u/sunbelle/artwork/11302988_img-20180714-160115.jpg" width="70" height="70"></a></div>
+
+<div class="items" style="order: 3;">9 <a href="https://mail.google.com/" target="_blank"><img src="https://i.ytimg.com/vi/yLdJ1fzl3nA/maxresdefault.jpg" width="70" height="70"></a></div>
+</div>
+
+<div id="container2">
+    <div class="item2" style="order: 3;">Twenty</div>
+    <div class="item2" style="order: 1;">One</div>
+    <div class="item2" style="order: 2;">Pilots</div>
+</div>
+</body>
+
+</html>
